@@ -64,6 +64,8 @@
             this.label16 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -262,7 +264,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(0, 207);
+            this.label7.Location = new System.Drawing.Point(3, 233);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(103, 13);
@@ -273,7 +275,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(0, 234);
+            this.label8.Location = new System.Drawing.Point(3, 260);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(73, 13);
@@ -283,7 +285,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(109, 207);
+            this.textBox7.Location = new System.Drawing.Point(112, 233);
             this.textBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox7.MaxLength = 30;
             this.textBox7.Name = "textBox7";
@@ -295,7 +297,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(1, 261);
+            this.label9.Location = new System.Drawing.Point(4, 287);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 13);
@@ -306,7 +308,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(0, 289);
+            this.label10.Location = new System.Drawing.Point(3, 315);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(72, 13);
@@ -326,7 +328,7 @@
             "Euro 4",
             "Euro 5",
             "Euro 6"});
-            this.comboBox2.Location = new System.Drawing.Point(76, 287);
+            this.comboBox2.Location = new System.Drawing.Point(79, 313);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(133, 21);
@@ -334,7 +336,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(74, 259);
+            this.textBox8.Location = new System.Drawing.Point(77, 285);
             this.textBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox8.MaxLength = 4;
             this.textBox8.Name = "textBox8";
@@ -345,7 +347,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(-1, 315);
+            this.label11.Location = new System.Drawing.Point(2, 341);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(33, 13);
@@ -357,7 +359,7 @@
             // 
             this.dateTimePicker1.CustomFormat = "dd MMM yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(74, 315);
+            this.dateTimePicker1.Location = new System.Drawing.Point(77, 341);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(118, 20);
@@ -489,7 +491,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(80, 230);
+            this.textBox11.Location = new System.Drawing.Point(83, 256);
             this.textBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox11.MaxLength = 30;
             this.textBox11.Name = "textBox11";
@@ -531,11 +533,34 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(3, 210);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(63, 13);
+            this.label17.TabIndex = 38;
+            this.label17.Text = "Combustibil:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Benzina",
+            "Motorina",
+            "GPL"});
+            this.comboBox4.Location = new System.Drawing.Point(72, 207);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(118, 21);
+            this.comboBox4.TabIndex = 39;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1459, 593);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label16);
@@ -620,6 +645,8 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ComboBox comboBox4;
     }
 }
 

@@ -54,6 +54,7 @@ namespace Formular_Parc_Auto
             comboBox1.SelectedIndex = -1;
             comboBox2.SelectedIndex = -1;
             comboBox3.SelectedIndex = -1;
+            comboBox4.SelectedIndex = -1;
             dateTimePicker1.Value = DateTime.Now;
             checkBox1.Checked = false;
         }
@@ -72,7 +73,7 @@ namespace Formular_Parc_Auto
         {
             double.TryParse(textBox11.Text, out double i);
             total = pret * i;
-            textBox10.Text = total.ToString();
+            textBox10.Text = total.ToString() + " LEI";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,20 +84,21 @@ namespace Formular_Parc_Auto
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = cnn;
 
-            cmd.CommandText = ("Insert  into Masini values (@Nume,@Cod,@Numar,@Marca,@Serie,@Kilometraj,@An,@Poluare,@Data,@Statie,@Minim,@Maxim,@Total)");
+            cmd.CommandText = ("Insert  into Masini values (@Nume,@Cod,@Numar,@Marca,@Serie,@Kilometraj,@Combustibil,@An,@Poluare,@Data,@Statie,@Minim,@Maxim,@Total)");
             cmd.Parameters.AddWithValue("@Nume", textBox1.Text);
             cmd.Parameters.AddWithValue("@Cod", textBox2.Text);
             cmd.Parameters.AddWithValue("@Numar", textBox3.Text);
             cmd.Parameters.AddWithValue("@Marca", comboBox1.Text);
             cmd.Parameters.AddWithValue("@Serie", textBox4.Text);
             cmd.Parameters.AddWithValue("@Kilometraj", textBox5.Text);
+            cmd.Parameters.AddWithValue("Combustibil", comboBox4.Text);
             cmd.Parameters.AddWithValue("@An", textBox8.Text);
             cmd.Parameters.AddWithValue("@Poluare", comboBox2.Text);
             cmd.Parameters.AddWithValue("@Data", dateTimePicker1.Value);
             cmd.Parameters.AddWithValue("@Statie", comboBox3.Text);
             cmd.Parameters.AddWithValue("@Minim", textBox6.Text);
             cmd.Parameters.AddWithValue("@Maxim", textBox9.Text);
-            cmd.Parameters.AddWithValue("@Total", textBox10.Text);
+            cmd.Parameters.AddWithValue("@Total", total.ToString());
             cnn.Open();
             cmd.ExecuteNonQuery();
             allRecords();
@@ -138,7 +140,7 @@ namespace Formular_Parc_Auto
         public void allRecords()
         {
             SqlConnection conn = new SqlConnection(connetionString);
-            SqlCommand cmdDataBase = new SqlCommand("Select Nume, Cod, Numar, Marca, Serie, Kilometraj, An, Poluare, Data, Statie, Minim, Maxim, Total from Masini ;", conn);
+            SqlCommand cmdDataBase = new SqlCommand("Select Nume, Cod, Numar, Marca, Serie, Kilometraj, Combustibil, An, Poluare, Data, Statie, Minim, Maxim, Total from Masini ;", conn);
 
             load_table(cmdDataBase);
         }
