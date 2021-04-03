@@ -13,7 +13,7 @@ namespace Formular_Parc_Auto
 {
     public partial class Form1 : Form
     {
-        public string connetionString = @"Data Source=EN1210516;Initial Catalog=Parc_Auto;User ID=ENDAVA\aarvinte;;Integrated Security=SSPI";
+        public string connetionString = @"Data Source=DESKTOP-1T83DU6;Initial Catalog=Parc_Auto;User ID=DESKTOP-1T83DU6\Cezara;;Integrated Security=SSPI";
         public Form1()
         {
             InitializeComponent();
@@ -79,7 +79,7 @@ namespace Formular_Parc_Auto
         private void button1_Click(object sender, EventArgs e)
         {
             string connetionString = null;
-            connetionString = @"Data Source=EN1210516;Initial Catalog=Parc_Auto;User ID=ENDAVA\aarvinte;;Integrated Security=SSPI";
+            connetionString = @"Data Source=DESKTOP-1T83DU6;Initial Catalog=Parc_Auto;User ID=DESKTOP-1T83DU6\Cezara;;Integrated Security=SSPI";
             SqlConnection cnn = new SqlConnection(connetionString);
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = cnn;
@@ -143,6 +143,21 @@ namespace Formular_Parc_Auto
             SqlCommand cmdDataBase = new SqlCommand("Select Nume, Cod, Numar, Marca, Serie, Kilometraj, Combustibil, An, Poluare, Data, Statie, Minim, Maxim, Total from Masini ;", conn);
 
             load_table(cmdDataBase);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -18,3 +18,13 @@ C:\Users\aarvinte\OneDrive - ENDAVA\Documents\Formular Parc Auto\obj\Debug\Formu
 C:\Users\aarvinte\OneDrive - ENDAVA\Documents\Formular Parc Auto\obj\Debug\Formular Parc Auto.csproj.CoreCompileInputs.cache
 C:\Users\aarvinte\OneDrive - ENDAVA\Documents\Formular Parc Auto\obj\Debug\Formular Parc Auto.exe
 C:\Users\aarvinte\OneDrive - ENDAVA\Documents\Formular Parc Auto\obj\Debug\Formular Parc Auto.pdb
+C:\Users\Cezara\Desktop\Formular Parc Auto\bin\Debug\Formular Parc Auto.exe.config
+C:\Users\Cezara\Desktop\Formular Parc Auto\bin\Debug\Formular Parc Auto.exe
+C:\Users\Cezara\Desktop\Formular Parc Auto\bin\Debug\Formular Parc Auto.pdb
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular Parc Auto.csprojAssemblyReference.cache
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular_Parc_Auto.Form1.resources
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular_Parc_Auto.Properties.Resources.resources
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular Parc Auto.csproj.GenerateResource.cache
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular Parc Auto.csproj.CoreCompileInputs.cache
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular Parc Auto.exe
+C:\Users\Cezara\Desktop\Formular Parc Auto\obj\Debug\Formular Parc Auto.pdb
