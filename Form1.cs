@@ -13,7 +13,7 @@ namespace Formular_Parc_Auto
 {
     public partial class Form1 : Form
     {
-        public string connetionString = @"Data Source=DESKTOP-1T83DU6;Initial Catalog=Parc_Auto;User ID=DESKTOP-1T83DU6\Cezara;;Integrated Security=SSPI";
+        public string connetionString = @"Data Source=DESKTOP-M48L6A9;Initial Catalog=Parc_Auto;User ID=DESKTOP-M48L6A9\Arvinte Alexandru;;Integrated Security=SSPI";
         public Form1()
         {
             InitializeComponent();
@@ -79,7 +79,7 @@ namespace Formular_Parc_Auto
         private void button1_Click(object sender, EventArgs e)
         {
             string connetionString = null;
-            connetionString = @"Data Source=DESKTOP-1T83DU6;Initial Catalog=Parc_Auto;User ID=DESKTOP-1T83DU6\Cezara;;Integrated Security=SSPI";
+            connetionString = @"Data Source=DESKTOP-M48L6A9;Initial Catalog=Parc_Auto;User ID=DESKTOP-M48L6A9\Arvinte Alexandru;;Integrated Security=SSPI";
             SqlConnection cnn = new SqlConnection(connetionString);
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = cnn;
@@ -163,6 +163,13 @@ namespace Formular_Parc_Auto
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2(); //this is the change, code for redirect  
+            f2.ShowDialog();
         }
     }
 }
