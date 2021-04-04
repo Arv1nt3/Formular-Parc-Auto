@@ -76,7 +76,7 @@
             this.label1.Location = new System.Drawing.Point(10, 44);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 13);
+            this.label1.Size = new System.Drawing.Size(98, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nume Șofer:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,7 +90,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.MaxLength = 30;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 20);
+            this.textBox1.Size = new System.Drawing.Size(211, 23);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -98,10 +98,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(-1, 81);
+            this.label2.Location = new System.Drawing.Point(493, 55);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.Size = new System.Drawing.Size(85, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cod Șofer:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -110,18 +110,18 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(118, 81);
+            this.textBox2.Location = new System.Drawing.Point(610, 49);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.MaxLength = 30;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(123, 20);
+            this.textBox2.Size = new System.Drawing.Size(123, 23);
             this.textBox2.TabIndex = 3;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(-1, 111);
+            this.label3.Location = new System.Drawing.Point(4, 72);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 41);
@@ -133,11 +133,11 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(118, 119);
+            this.textBox3.Location = new System.Drawing.Point(206, 90);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.MaxLength = 30;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 20);
+            this.textBox3.Size = new System.Drawing.Size(123, 23);
             this.textBox3.TabIndex = 5;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -213,10 +213,10 @@
             "Vauxhall ",
             "Volkswagen ",
             "Volvo"});
-            this.comboBox1.Location = new System.Drawing.Point(118, 159);
+            this.comboBox1.Location = new System.Drawing.Point(132, 131);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(197, 21);
+            this.comboBox1.Size = new System.Drawing.Size(197, 24);
             this.comboBox1.TabIndex = 6;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -224,10 +224,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(-1, 161);
+            this.label4.Location = new System.Drawing.Point(-1, 138);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.Size = new System.Drawing.Size(113, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Marcă Mașină:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -236,10 +236,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(-1, 196);
+            this.label5.Location = new System.Drawing.Point(4, 176);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 13);
+            this.label5.Size = new System.Drawing.Size(117, 17);
             this.label5.TabIndex = 8;
             this.label5.Text = "Serie de șasiu:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -248,22 +248,23 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(121, 196);
+            this.textBox4.Location = new System.Drawing.Point(206, 170);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.MaxLength = 30;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(123, 20);
+            this.textBox4.Size = new System.Drawing.Size(123, 23);
             this.textBox4.TabIndex = 9;
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(-1, 225);
+            this.label6.Location = new System.Drawing.Point(4, 216);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 13);
+            this.label6.Size = new System.Drawing.Size(85, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "Kilometraj:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -272,11 +273,11 @@
             // 
             this.textBox5.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(121, 225);
+            this.textBox5.Location = new System.Drawing.Point(206, 210);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.MaxLength = 30;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(123, 20);
+            this.textBox5.Size = new System.Drawing.Size(123, 23);
             this.textBox5.TabIndex = 11;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -284,10 +285,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 287);
+            this.label7.Location = new System.Drawing.Point(416, 423);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 13);
+            this.label7.Size = new System.Drawing.Size(162, 17);
             this.label7.TabIndex = 12;
             this.label7.Text = "Preț litru combustibil:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -296,10 +297,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(4, 320);
+            this.label8.Location = new System.Drawing.Point(452, 465);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 13);
+            this.label8.Size = new System.Drawing.Size(116, 17);
             this.label8.TabIndex = 13;
             this.label8.Text = "Litri alimentați:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -308,11 +309,11 @@
             // 
             this.textBox7.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Location = new System.Drawing.Point(167, 287);
+            this.textBox7.Location = new System.Drawing.Point(614, 417);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.MaxLength = 30;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(123, 20);
+            this.textBox7.Size = new System.Drawing.Size(123, 23);
             this.textBox7.TabIndex = 15;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged_1);
@@ -321,10 +322,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(5, 353);
+            this.label9.Location = new System.Drawing.Point(473, 96);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 13);
+            this.label9.Size = new System.Drawing.Size(105, 17);
             this.label9.TabIndex = 16;
             this.label9.Text = "An fabricație:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -333,10 +334,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(4, 388);
+            this.label10.Location = new System.Drawing.Point(10, 331);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(86, 13);
+            this.label10.Size = new System.Drawing.Size(109, 17);
             this.label10.TabIndex = 17;
             this.label10.Text = "Nivel poluare:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -354,21 +355,21 @@
             "Euro 4",
             "Euro 5",
             "Euro 6"});
-            this.comboBox2.Location = new System.Drawing.Point(118, 385);
+            this.comboBox2.Location = new System.Drawing.Point(132, 324);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(197, 21);
+            this.comboBox2.Size = new System.Drawing.Size(197, 24);
             this.comboBox2.TabIndex = 18;
             // 
             // textBox8
             // 
             this.textBox8.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Location = new System.Drawing.Point(116, 351);
+            this.textBox8.Location = new System.Drawing.Point(610, 90);
             this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.MaxLength = 4;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(123, 20);
+            this.textBox8.Size = new System.Drawing.Size(123, 23);
             this.textBox8.TabIndex = 19;
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -376,10 +377,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(13, 581);
+            this.label11.Location = new System.Drawing.Point(5, 616);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 13);
+            this.label11.Size = new System.Drawing.Size(47, 17);
             this.label11.TabIndex = 21;
             this.label11.Text = "Data:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -392,20 +393,20 @@
             this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ControlDark;
             this.dateTimePicker1.CustomFormat = "dd MMM yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(98, 576);
+            this.dateTimePicker1.Location = new System.Drawing.Point(81, 610);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(175, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(175, 23);
             this.dateTimePicker1.TabIndex = 22;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(337, 49);
+            this.label12.Location = new System.Drawing.Point(384, 268);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(106, 13);
+            this.label12.Size = new System.Drawing.Size(136, 17);
             this.label12.TabIndex = 23;
             this.label12.Text = "Stație alimentare:";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -423,20 +424,20 @@
             "Mol",
             "OMW",
             "Socar"});
-            this.comboBox3.Location = new System.Drawing.Point(494, 47);
+            this.comboBox3.Location = new System.Drawing.Point(540, 262);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(197, 21);
+            this.comboBox3.Size = new System.Drawing.Size(197, 24);
             this.comboBox3.TabIndex = 24;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(337, 87);
+            this.label13.Location = new System.Drawing.Point(340, 131);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(208, 13);
+            this.label13.Size = new System.Drawing.Size(264, 17);
             this.label13.TabIndex = 25;
             this.label13.Text = "Consum minim combustibil / 100km:";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -445,10 +446,10 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(337, 119);
+            this.label14.Location = new System.Drawing.Point(337, 176);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(211, 13);
+            this.label14.Size = new System.Drawing.Size(267, 17);
             this.label14.TabIndex = 26;
             this.label14.Text = "Consum maxim combustibil / 100km:";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -457,10 +458,10 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(337, 161);
+            this.label15.Location = new System.Drawing.Point(371, 331);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(160, 13);
+            this.label15.Size = new System.Drawing.Size(207, 17);
             this.label15.TabIndex = 27;
             this.label15.Text = "Generează alerte tranzacții";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -471,10 +472,10 @@
             this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.checkBox1.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.checkBox1.Location = new System.Drawing.Point(553, 164);
+            this.checkBox1.Location = new System.Drawing.Point(614, 334);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(13, 12);
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 28;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -512,11 +513,11 @@
             // 
             this.textBox6.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.Location = new System.Drawing.Point(603, 87);
+            this.textBox6.Location = new System.Drawing.Point(610, 125);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.MaxLength = 30;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(123, 20);
+            this.textBox6.Size = new System.Drawing.Size(123, 23);
             this.textBox6.TabIndex = 31;
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -524,21 +525,21 @@
             // 
             this.textBox9.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Location = new System.Drawing.Point(603, 119);
+            this.textBox9.Location = new System.Drawing.Point(610, 170);
             this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.MaxLength = 30;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(123, 20);
+            this.textBox9.Size = new System.Drawing.Size(123, 23);
             this.textBox9.TabIndex = 32;
             this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(463, 286);
+            this.textBox10.Location = new System.Drawing.Point(603, 503);
             this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(134, 20);
+            this.textBox10.Size = new System.Drawing.Size(134, 23);
             this.textBox10.TabIndex = 33;
             this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
@@ -547,11 +548,11 @@
             // 
             this.textBox11.BackColor = System.Drawing.Color.FloralWhite;
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Location = new System.Drawing.Point(125, 315);
+            this.textBox11.Location = new System.Drawing.Point(614, 459);
             this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.MaxLength = 30;
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(123, 20);
+            this.textBox11.Size = new System.Drawing.Size(123, 23);
             this.textBox11.TabIndex = 34;
             this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
@@ -560,10 +561,10 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(296, 288);
+            this.label16.Location = new System.Drawing.Point(408, 509);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(133, 13);
+            this.label16.Size = new System.Drawing.Size(170, 17);
             this.label16.TabIndex = 35;
             this.label16.Text = "Total preț combustibil:";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -599,10 +600,10 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(4, 258);
+            this.label17.Location = new System.Drawing.Point(5, 272);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(75, 13);
+            this.label17.Size = new System.Drawing.Size(96, 17);
             this.label17.TabIndex = 38;
             this.label17.Text = "Combustibil:";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -617,15 +618,15 @@
             "Benzina",
             "Motorina",
             "GPL"});
-            this.comboBox4.Location = new System.Drawing.Point(108, 255);
+            this.comboBox4.Location = new System.Drawing.Point(154, 265);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(175, 21);
+            this.comboBox4.Size = new System.Drawing.Size(175, 24);
             this.comboBox4.TabIndex = 39;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Gainsboro;
