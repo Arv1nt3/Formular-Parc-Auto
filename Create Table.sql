@@ -1,7 +1,7 @@
 Use Parc_Auto
 Go
 
-Create TABLE Masini
+Create TABLE Records
 (
 ID int IDENTITY(1,1) PRIMARY KEY,
 Nume varchar(255) NOT NULL,

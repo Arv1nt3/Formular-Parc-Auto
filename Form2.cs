@@ -53,8 +53,8 @@ namespace Formular_Parc_Auto
         {
             SqlConnection conn = new SqlConnection(connetionString);
             string sqlFormat = "yyyy-MM-dd HH:mm:ss.fff";
-            //string query = "SELECT Nume, Cod, Numar, Marca, Serie, Kilometraj, Combustibil, An, Poluare, Data, Statie, Minim, Maxim, Total from Masini where Data between '" + dateTimePicker2.Value + "' AND'" + "'" + dateTimePicker3.Value + "'";
-            String query = "SELECT Nume, Cod, Numar, Marca, Serie, Kilometraj, Combustibil, An, Poluare, Data, Statie, Minim, Maxim, Total from Masini where Data between '"
+            //string query = "SELECT Nume, Cod, Numar, Marca, Serie, Kilometraj, Combustibil, An, Poluare, Data, Statie, Minim, Maxim, Total from Records where Data between '" + dateTimePicker2.Value + "' AND'" + "'" + dateTimePicker3.Value + "'";
+            String query = "SELECT Nume, Cod, Numar, Marca, Serie, Kilometraj, Combustibil, An, Poluare, Data, Statie, Minim, Maxim, Total from Records where Data between '"
             + dateTimePicker2.Value.ToString(sqlFormat) + "' AND'"
             + dateTimePicker3.Value.ToString(sqlFormat) + "'";
             SqlCommand cmdDataBase = new SqlCommand(query, conn);
