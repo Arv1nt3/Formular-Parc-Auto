@@ -14,10 +14,6 @@ namespace Formular_Parc_Auto
     public partial class Form1 : Form
     {
         DataSet ds1;
-        DataSet ds2;
-        DataSet ds3;
-        DataSet ds4;
-        DataSet ds5;
 
         public string connetionString = @"Data Source=DESKTOP-M48L6A9;Initial Catalog=Parc_Auto;User ID=DESKTOP-M48L6A9\Arvinte Alexandru;;Integrated Security=SSPI";
         public Form1()
