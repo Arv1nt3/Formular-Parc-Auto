@@ -114,7 +114,7 @@ namespace Formular_Parc_Auto
             cmd.Parameters.AddWithValue("@Statie", comboBox3.Text);
             cmd.Parameters.AddWithValue("@Minim", textBox6.Text);
             cmd.Parameters.AddWithValue("@Maxim", textBox9.Text);
-            cmd.Parameters.AddWithValue("@Total", total.ToString());
+            cmd.Parameters.AddWithValue("@Total", total);
             cnn.Open();
             cmd.ExecuteNonQuery();
             allRecords();
@@ -176,15 +176,11 @@ namespace Formular_Parc_Auto
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 f2 = new Form2(); //this is the change, code for redirect  
+            Form2 f2 = new Form2();
             f2.ShowDialog();
         }
 
@@ -239,5 +235,5 @@ namespace Formular_Parc_Auto
             comboBox6.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox6.Enabled = true;
         }
+        }
     }
-}

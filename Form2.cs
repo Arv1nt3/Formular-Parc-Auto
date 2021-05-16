@@ -70,5 +70,10 @@ namespace Formular_Parc_Auto
             Form1 f1 = new Form1(); //this is the change, code for redirect  
             f1.ShowDialog();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
