@@ -51,3 +51,15 @@ C:\Users\Arvinte Alexandru\Documents\Formular Parc Auto\obj\Debug\Formular Parc 
 C:\Users\Arvinte Alexandru\Documents\Formular Parc Auto\obj\Debug\Formular Parc Auto.csproj.CoreCompileInputs.cache
 C:\Users\Arvinte Alexandru\Documents\Formular Parc Auto\obj\Debug\Formular Parc Auto.exe
 C:\Users\Arvinte Alexandru\Documents\Formular Parc Auto\obj\Debug\Formular Parc Auto.pdb
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\bin\Debug\Formular Parc Auto.exe.config
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\bin\Debug\Formular Parc Auto.exe
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\bin\Debug\Formular Parc Auto.pdb
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular Parc Auto.csprojAssemblyReference.cache
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular_Parc_Auto.Form1.resources
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular_Parc_Auto.Form2.resources
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular_Parc_Auto.Form3.resources
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular_Parc_Auto.Properties.Resources.resources
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular Parc Auto.csproj.GenerateResource.cache
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular Parc Auto.csproj.CoreCompileInputs.cache
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular Parc Auto.exe
+C:\Users\Arvinte Alexandru\Documents\GitHub\Formular-Parc-Auto\obj\Debug\Formular Parc Auto.pdb

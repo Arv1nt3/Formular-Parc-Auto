@@ -14,9 +14,6 @@ namespace Formular_Parc_Auto
 {
     public partial class Form3 : Form
     {
-        SqlConnection con;
-        SqlCommand cmd;
-        SqlDataReader reader;
         public Form3()
         {
             InitializeComponent();
